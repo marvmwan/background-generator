@@ -1,0 +1,317 @@
+body {
+    background-color: #adb5bd;
+}
+/* Header navigation start  */
+header {
+    background-color: #2b2c2d;
+    height: 45px;
+    box-shadow: rgba(0, 0, 0, .3);
+    
+}
+
+/* .icons {
+    margin-top: 14px;
+} */
+.logo {
+    width: 88px;
+    height: 25px;
+    /* margin-top: 8px; */
+}
+ul {
+    list-style: none;
+    margin: none;
+}
+.menu-1 a {
+    text-decoration: none;
+    color: white;
+}
+.menu-1 {
+    max-width: 1420px;
+    margin: auto auto;
+    vertical-align: middle;
+    line-height: 45px;
+}
+.menu-1 li {
+    float: left;
+    margin-right: 20px;
+}
+
+.gap {
+    margin-left: 380px;
+}
+
+/* header navigation end  */
+
+
+/* banner image start */
+.top-image {
+    max-width: 1350px;
+    margin: 15px auto 10px auto;
+}
+/* banner image end  */
+
+
+/* feed boxes start  */
+.feed {
+    margin-top: 30px;
+}
+.content-box {
+    background-color: rgb(250, 250, 250);
+    /* height: 340px; */
+    font-size: small;
+    border-radius: 10px;
+}
+
+/* feed boxes end  */
+
+
+/* subscription button start  */
+.subBtn {
+    max-width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-box-1 {
+    background-color: orange;
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 44px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+/* subscription button end  */
+
+/* link boxes start  */
+.link-box{
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: rgba(0, 0, 0, .3) 1px dotted;
+}
+.last {
+    border-bottom: none;
+}
+.icon-box{
+    flex: 1;
+    height: fit-content;
+    width: fit-content;
+    margin: auto 0;
+}
+.text-box {
+    flex: 7;
+}
+.ulist {
+    padding: 10px;
+}
+.list-item {
+    padding-top: 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.icon {
+    width: 15px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+/* link boxes end  */
+
+/* quick links box start  */
+
+.boxHeader {
+    font-weight: bold;
+    font-size: 105%;
+    padding: 15px 0 15px 0;
+    border-bottom: lightgray solid 1px;
+    margin: 0 10px;
+}
+.first {
+    padding-top: 0%;
+}
+
+
+
+
+/* quick links end  */
+
+/* Log in/Sign in box start  */
+.logIn {
+    width: fit-content;
+    margin: 0 auto;
+}
+.signUp button {
+    height: 31px;
+    width: 175px;
+    background-color: #06c;
+    color: white;
+    border-radius: 44px;
+    border: none;
+    margin-top: 10px;
+}
+.logIn button {
+    height: 31px;
+    width: 175px;
+    background-color: transparent;
+    color:  #06c;
+    border:  #06c 1px solid;
+    border-radius: 44px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.signUp {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+/* Log in/ Sign in box end  */
+/* Col-2 box 2 start  */
+.col-2-heading {
+    font-weight: bold;
+    font-size: 110%;
+    padding: 10px 0px 10px 20px;
+}
+.col-2-heading img {
+    width: 35px;
+}
+.col-2-box-2-image {
+    margin: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.16);
+    margin-bottom: 15px;
+}
+.col-2-box-2-image img {
+    border-radius: 10px 10px 0px 0px;
+}
+.col-2-box-2-image-text {
+    border-top: black 1px solid;
+    padding: 10px;
+    
+}
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Headlines box start  */
+.bulleted {
+    list-style: disc;
+    color: grey;
+    padding-bottom: 10px;
+}
+.headlines-li{
+    padding-top: 10px;
+    
+}
+.headlines-text {
+    color: grey;
+    font-size: 95%;
+}
+/* headlines box end  */
+
+/* Col 3 Ad start  */
+.col-3-ad {
+    margin-bottom: 15px;
+}
+/* Col 3 header of harubaugh start */
+.col-3-header {
+    border: none;
+    padding-bottom: 0px;
+}
+.col-3-picture {
+    margin: 10px;
+}
+.col-3-text {
+    margin: 10px;
+    padding-bottom: 30px;
+    font-size: 90%;
+    color: grey;
+}
+strong {
+    color: rgb(44, 43, 43);
+}
+
+/* Col 3 header of haraughhbh end  */
+
+
+.espnPlus {
+    padding: 10px 0 20px 10px;
+}
+.espnPlus img {
+    width: 65px;
+    height: 14px;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.darby {
+    /* width: 822px;
+    height: 1243px;
+    margin-top: -300px; */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+.col-2-content-box {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 370px;
+    overflow: hidden;
+}
+.col-2-box-1-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 10px;
+    color: white;
+    background-image: linear-gradient(to bottom, transparent, black);
+}
+.col-2-box-1-text-banner {
+    background-color: red;
+    max-width: fit-content;
+    padding: 5px;
+    font-size: 50%;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    align-content: center;
+    vertical-align: middle;
+}
+
+
+.footer {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.group::before {
+    content: "";
+    display: table;
+}
+
+.group::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+}
